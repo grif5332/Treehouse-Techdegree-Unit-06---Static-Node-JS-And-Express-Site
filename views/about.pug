@@ -1,0 +1,40 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Add your name.
+        h1 #{data.personal[0].full_name}
+        //- Feel free personalize the title below
+        p.lead.text-light
+          | #{data.personal[0].title}
+
+        //- Replace the boilerplate below with your Elevator pitch below.
+        .portfolio-bio
+          p 
+            | #{data.personal[0].elevator_pitch} 
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
+        ul
+          each val, index in data.personal[0].skillset
+            li #{val}
+        h6 Contact Info
+
+        //- Add your own contact info
+        ul
+          each val, index in data.personal[0].contact
+            li #{val}
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded(href='https://www.linkedin.com/in/matthewgriffithwebdev/' target='_blank') LinkedIn
+        a.button.expanded(href='https://github.com/grif5332' target='_blank') GitHub
+        //- a.button.expanded(href='') YouTube
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  

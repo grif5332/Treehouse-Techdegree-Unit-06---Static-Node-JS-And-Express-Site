@@ -1,0 +1,106 @@
+{
+    "projects" : [
+        {
+            "id" : 0,
+            "project_name" : "Random Quote Generator",
+            "description" : "This takes an array of quotes and displays one quote with citation, tags, and other info.  There are two options for displaying quotes.  The quote will change every couple of seconds.  There is also a button that can be clicked to display another random quote.  When the quote changes, the background color also changes.",
+            "technologies" : ["HTML", "CSS", "JavaScript"],
+            "live_link" : "https://grif5332.github.io",
+            "github_link" : "https://github.com/grif5332/Treehouse-Techdegree-Unit-01---Random-Quote-Generator",
+            "image_urls" : ["./img/unit-1/UNIT 01 - 550x550.png",
+                            "./img/unit-1/UNIT 01 - 001.png",
+                            "./img/unit-1/UNIT 01 - 002.png",
+                            "./img/unit-1/UNIT 01 - 003.png"]   
+        },
+        {
+            "id" : 1,
+            "project_name" : "List Pagination",
+            "description" : "This project takes a list of people (could be any number) and creates pages equal to the number divided by ten.  Then, it creates pages and links.",
+            "technologies" : ["HTML", "CSS", "JavaScript"],
+            "live_link" : "grif5332.github.io",
+            "github_link" : "https://github.com/grif5332/Treehouse-Techdegree-Unit-02---List-Pagination-and-Filtering",
+            "image_urls" : ["./img/unit-2/UNIT 02 - 550x550.png",
+                            "./img/unit-2/UNIT 02 - 001.png"]
+        },
+        {
+            "id" : 2,
+            "project_name" : "Interactive Form",
+            "description" : "This was a fun project.  We had top use jQuery to manipulate the DOM.  It also was required to do create our own form validation.  We couldn't use in browser validation.  There were some tricky parts for sure.  Little things that most people don't really give much thought too.  I added a little feature on my own.  When you choose a shirt color/design, the background color changes to the chosen shirt.",
+            "technologies" : ["HTML", "CSS", "JavaScript", "jQuery"],
+            "live_link" : "grif5332.github.io",
+            "github_link" : "https://github.com/grif5332/Treehouse-Techdegree-Unit-03---Interactive-Form",
+            "image_urls" : ["./img/unit-3/UNIT 03 - 550x550.png",
+                            "./img/unit-3/UNIT 03 - 001.png",
+                            "./img/unit-3/UNIT 03 - 002.png",
+                            "./img/unit-3/UNIT 03 - 003.png"]
+        },
+        {
+            "id" : 3,
+            "project_name" : "OOP Game Show",
+            "description" : "This project was all about Object Oriented Programing.  Uses classes spread out over a couple of JS files.",
+            "technologies" : ["HTML", "CSS", "JavaScript", "OOP"],
+            "live_link" : "link",
+            "github_link" : "https://github.com/grif5332/Treehouse-Techdegree-Unit-04---OOP-Game-Show-App",
+            "image_urls" : ["./img/unit-4/UNIT 04 - 550x550.png",
+                            "./img/unit-4/UNIT 04 - 001.png",
+                            "./img/unit-4/UNIT 04 - 002.png",
+                            "./img/unit-4/UNIT 04 - 003.png"]
+        },
+        {
+            "id" : 4,
+            "project_name" : "Public API Request",
+            "description" : "The purpose of this project was to understand and use public API request.  You fetched data from the randomuser.me to create a 12 person employee directory. This directory was a partial profile that, when clicked, caused a modal to popup with a complete employee profile.  This modal card had to have a next and a prev button that cycled through the avaialable cards as well an X to close the card.  Another feature we could add was a search bar to filter employees.",
+            "technologies" : ["HTML", "CSS", "JavaScript", "Fetch API", "AJAX"],
+            "live_link" : "link",
+            "github_link" : "https://github.com/grif5332/Treehouse-Techdegree-Unit-05---Public-API-Request",
+            "image_urls" : ["./img/unit-5/UNIT 05 - 550x550.png",
+                            "./img/unit-5/UNIT 05 - 001.png"]
+        },
+        {
+            "id" : 5,
+            "project_name" : "Static Node.JS and Express Portfolio",
+            "description" : "The sixth project was to build a static Node.JS and Express website using Pug.  We had to collect screenshots of our projects, create JSON files, create routes, and an error page.",
+            "technologies" : ["HTML", "CSS", "Pug", "Node.JS", "Express", "JSON"],
+            "live_link" : "grif5332.github.io",
+            "github_link" : "https://github.com/grif5332/Treehouse-Techdegree-Unit-06---Static-Node-JS-And-Express-Site",
+            "image_urls" : ["./img/unit-6/UNIT 06 - 550x550.png",
+                            "./img/unit-6/UNIT 06 - 001.png",
+                            "./img/unit-6/UNIT 06 - 002.png",
+                            "./img/unit-6/UNIT 06 - 003.png"]
+        },
+        {
+            "id" : 6,
+            "project_name" : "OOP Connect Four Game",
+            "description" : "This game was part of the supplement to the OOP Game show project.  It's a simple Connect Four game that was build using OOP principles.",
+            "technologies" : ["HTML", "CSS", "JavaScript", "jQuery", "OOP"],
+            "live_link" : "link",
+            "github_link" : "https://github.com/grif5332/Treehouse---OOP-Connect-Four-Game",
+            "image_urls" : ["./img/OOP Connect Four/OOP Connect Four Game - 550x550.png",
+                            "./img/OOP Connect Four/OOP Connect Four Game - 001.png"]
+        },
+        {
+            "id" : 7,
+            "project_name" : "JavaScript Number Guessing Game (WIP)",
+            "description" : "This is a small person project I started.  Its a simple little game.  You enter a number withing the given range on screen.  You are also given a certain amount of guesses.  IF you geuss right, you are given 5 more guesses and the range expands.  This is still a work in progress.  I started this pre-Team Treehouse.",
+            "technologies" : ["HTML", "CSS", "JavaScript"],
+            "live_link" : "link",
+            "github_link" : "https://github.com/grif5332/JS-Number-Guessing-Game",
+            "image_urls" : ["./img/Number Guessing Game/Number Guessing Game - 550x550.png",
+                            "./img/Number Guessing Game/Number Guessing Game - 001.png"]
+        }
+    ],
+    "personal" : [
+        {
+            "avatar" : "./img/WebsiteAvatar.jpg",
+            "full_name" : "Matthew L. Griffith",
+            "location" : "Portland, Oregon",
+            "linkedIn" : "https://www.linkedin.com/in/matthewgriffithwebdev",
+            "github" : "https://www.github.com/grif5332",
+            "skillset" : ["HTML", "CSS", "JavaScript (ES5 & ES6)", "jQuery", "Sass", "AJAX", "Node.js", "Express", "Pug (formerly Jade)", "Bootstrap", "Wordpress", "Github", "API"],
+            "contact" : ["(503) 729-4799", "grif5332@gmail.com"],
+            "title" : "Full Stack JavaScript Developer",
+            "condensed_elevator_pitch" : "Hi!  Welcome to my portfolio. I'm currently working through the Team Treehouse Full Stack JavaScript Techdegree.  This is my portfolio of the project I have built.  I hope you enjoy!",
+            "elevator_pitch" : "Greetings!  My name is Matthew L. Griffith.  I am web developer based in Portland, Oregon.  I am currently a student in the Full Stack JavaScript Techdegree with Team Treehouse."
+        }
+    ]
+}
