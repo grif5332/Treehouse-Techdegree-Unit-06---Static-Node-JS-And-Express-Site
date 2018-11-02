@@ -5,3 +5,5 @@ I made a few changes to the css.  I changed the color scheme to a scheme that fi
 I also changed the font to one I like much better.  (4/3)
 
 I also added custom stuff to the error.pug.  I added back buttons (similar to the "about page").  I also added a picture anda custome message along with the not found 404 info.
+
+One other change was the use of Font-Awesome.  I added a small location drop pin img next to my location.
