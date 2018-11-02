@@ -10,11 +10,11 @@ app.set('view engine', 'pug');
 app.get('/', (req, res) => {
     res.render('index', { data });
 });
-
+// sets About route
 app.get('/about', (req, res) => {
     res.render('about', { data });
 });
-
+// sets a dynamic projects route
 app.get('/projects:id', (req, res) => {
     res.render('project', {
         data : data, // passes data into the 'project' ... locals
@@ -24,7 +24,7 @@ app.get('/projects:id', (req, res) => {
 
 // Error Handling
 app.use((req, res, next) => {
-    const err = new Error('You hit a snag! Error!');
+    const err = new Error('Oh no!  You hit a snag in the Matrix!');
     console.log(err)
     err.status = 400;
     next(err);
