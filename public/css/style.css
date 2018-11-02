@@ -2,7 +2,7 @@ body {
   background-color: #E2FEEB;
 }
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'KoHo', serif;
 }
 
   h5{
@@ -116,10 +116,12 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
+  
 }
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    box-shadow: 0.5rem -0.5rem 3rem #7c7c7c;
   }
 
   .portfolio-index a{
@@ -153,4 +155,13 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+.errorIMG {
+  max-width: 35%;
+  display: block;
+  margin: auto;
+  box-shadow: 0.5rem -0.5rem 3rem #7c7c7c;
+}
+.errorMainTxt {
+  text-align: center;
 }

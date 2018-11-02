@@ -24,8 +24,9 @@ app.get('/projects:id', (req, res) => {
 
 // Error Handling
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
+    const err = new Error(`Oh no!  The page you were looking for seems to not exist.  Sorry about that!`);
+    console.log(err)
+    err.status = 400;
     next(err);
 });
 

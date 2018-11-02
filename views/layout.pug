@@ -17,19 +17,17 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            - const avatarIMG = { img : `${data.personal[0].avatar}` }
-            if avatarIMG.img
-              img.thumbnail(src=avatarIMG.img)
+            img.thumbnail(src='./img/WebsiteAvatar.jpg')
           .cell.auto
 
             //- Add your name here.
-            h5 #{data.personal[0].full_name}
+            h5 Matthew L. Griffith
 
             //- Add text here to describe who you are, what you do, and why you are so aweome.
             i.fas.fa-map-marker-alt
-            span.text-ital  #{data.personal[0].location}
+            span.text-ital  Portland, Oregon
             p.text-light
-              | #{data.personal[0].condensed_elevator_pitch}
+              | Hi!  Welcome to my portfolio. I'm currently working through the Team Treehouse Full Stack JavaScript Techdegree.  This is my portfolio of the project I have built.  I hope you enjoy!
 
             //- Add about page route to the href below. 
             a(href='/about') Learn More →
